@@ -1,14 +1,83 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400&family=Merriweather:wght@400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400&family=Merriweather:wght@400;900&family=Mulish:wght@700&display=swap");
 
 .Event {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  gap: 1rem;
   max-width: 1047px;
   min-height: 173px;
-  padding: 15px;
+  padding: 10px;
   margin-bottom: 1rem;
   background-color: #ffffff;
-  border-radius: 15px;
+  border-radius: 10px;
   font-family: "Merriweather", serif;
+}
+
+.title {
+  color: #1b2442;
+  font-size: 15px;
+}
+
+.description {
+  max-width: 524px;
+  min-height: 46px;
+  color: #000000;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 300;
+  font-size: 10px;
+}
+
+.dateTime {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: papayawhip;
+  min-width: 100px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+.date {
+  font-family: "Mulish", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.time {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.addToCalendar {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  background-color: transparent;
+  color: #000000;
+  border-radius: 10px;
+  min-width: 100px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 10px;
+  font-weight: 300;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 2s ease-out;
+}
+
+.addToCalendar:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* media queries */
+@media screen and (min-width: 480px) {
+  .title {
+    font-size: 26px;
+  }
+  .description {
+    font-size: 18px;
+  }
 }

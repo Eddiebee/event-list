@@ -1,5 +1,5 @@
-const Title = () => {
-  return <h2 className="title">Bergen International Film Festival</h2>;
+const Title = ({ title }) => {
+  return <h2 className="title">{title}</h2>;
 };
 
 export default Title;

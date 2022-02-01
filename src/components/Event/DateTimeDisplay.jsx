@@ -1,10 +1,10 @@
 import React from "react";
 
-const DateTimeDisplay = () => {
+const DateTimeDisplay = ({ date, time }) => {
   return (
     <div className="dateTime">
-      <p className="date">Today</p>
-      <p className="time"> 17:00</p>
+      <p className="date">{date}</p>
+      <p className="time"> {time}</p>
     </div>
   );
 };

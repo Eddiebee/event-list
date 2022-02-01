@@ -1,10 +1,5 @@
-const Description = () => {
-  return (
-    <p className="description">
-      Films from all over the world gather all film enthusiasts for unique
-      moments at the Bergen International Film Festival.
-    </p>
-  );
+const Description = ({ description }) => {
+  return <p className="description">{description}</p>;
 };
 
 export default Description;

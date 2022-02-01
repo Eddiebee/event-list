@@ -4,13 +4,14 @@ import Title from "./Title";
 import "./Event.css";
 import DateTimeDisplay from "./DateTimeDisplay";
 
-const Event = () => {
+const Event = ({ event }) => {
+  const { date, time, title, description } = event;
   return (
     <div className="Event">
-      <DateTimeDisplay />
+      <DateTimeDisplay date={date} time={time} />
       <span className="details">
-        <Title />
-        <Description />
+        <Title title={title} />
+        <Description description={description} />
         <AddToCalendar />
       </span>
     </div>

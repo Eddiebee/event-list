@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400&family=Merriweather:wght@400;900&display=swap");
+
+.Event {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1047px;
+  min-height: 173px;
+  padding: 15px;
+  margin-bottom: 1rem;
+  background-color: #ffffff;
+  border-radius: 15px;
+  font-family: "Merriweather", serif;
+}

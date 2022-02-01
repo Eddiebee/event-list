@@ -2,17 +2,17 @@ import AddToCalendar from "./AddToCalendar";
 import Description from "./Description";
 import Title from "./Title";
 import "./Event.css";
-import TimeDisplay from "./TimeDisplay";
+import DateTimeDisplay from "./DateTimeDisplay";
 
 const Event = () => {
   return (
     <div className="Event">
-      <TimeDisplay />
-      <div>
+      <DateTimeDisplay />
+      <span className="details">
         <Title />
         <Description />
-      </div>
-      <AddToCalendar />
+        <AddToCalendar />
+      </span>
     </div>
   );
 };

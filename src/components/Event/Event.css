@@ -5,7 +5,7 @@
   justify-content: space-around;
   align-items: center;
   gap: 1rem;
-  max-width: 1047px;
+  width: 100%;
   min-height: 173px;
   padding: 10px;
   margin-bottom: 1rem;

@@ -1,9 +1,9 @@
 import React from "react";
 import { MdEvent } from "react-icons/md";
 
-const AddEventBtn = () => {
+const AddEventBtn = ({ showAddEvent, setShowAddEvent }) => {
   return (
-    <span role="button">
+    <span role="button" onClick={() => setShowAddEvent(!showAddEvent)}>
       <MdEvent /> Add event
     </span>
   );

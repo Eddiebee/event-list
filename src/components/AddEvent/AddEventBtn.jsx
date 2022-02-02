@@ -10,7 +10,7 @@ const AddEventBtn = ({ showAddEvent, setShowAddEvent }) => {
       onClick={() => setShowAddEvent(!showAddEvent)}
       className="AddEventBtn"
     >
-      <MdEvent /> Add event
+      <MdEvent /> Add Event
     </span>
   );
 };

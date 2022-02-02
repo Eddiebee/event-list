@@ -26,3 +26,56 @@
   left: 40px;
   font-size: 20px;
 }
+
+/* AddEventForm styles */
+.AddEventForm {
+  /* position: fixed; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.AddEventForm > label {
+  font-family: "Merriweather", serif;
+  font-size: 13px;
+  font-weight: 900;
+  color: #1b2442;
+}
+
+.AddEventForm > label > input {
+  width: 10rem;
+  height: 2rem;
+  margin: 0.5rem 0.5rem;
+}
+
+.AddEventForm > label > input,
+.AddEventForm > textarea {
+  background-color: transparent;
+  color: #1b2442;
+  padding: 10px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  border-radius: 5px;
+  border: 1px solid #eceff8;
+  outline: 2px solid #f8ecf8;
+}
+
+.saveBtn {
+  width: 10rem;
+  padding: 10px;
+  margin: 0.5rem 0;
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-size: 13px;
+  background-color: #f8ecec;
+  color: #1b2442;
+  border: 1px solid #eceff8;
+  outline: 2px solid #f8ecf8;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -29,7 +29,7 @@ const AddEvent = ({ events, setEvents, newEvent, setNewEvent }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className="AddEventForm">
       <label htmlFor="title">
         Title
         <input
@@ -40,17 +40,17 @@ const AddEvent = ({ events, setEvents, newEvent, setNewEvent }) => {
           onChange={handleSetNewEvent}
         />
       </label>
-      <label htmlFor="description">
-        Description
-        <textarea
-          name="description"
-          id="description"
-          cols="30"
-          rows="10"
-          value={description}
-          onChange={handleSetNewEvent}
-        ></textarea>
-      </label>
+
+      <textarea
+        name="description"
+        id="description"
+        placeholder="description of event"
+        cols="30"
+        rows="5"
+        value={description}
+        onChange={handleSetNewEvent}
+      ></textarea>
+
       <label htmlFor="date">
         Date
         <input
@@ -72,7 +72,9 @@ const AddEvent = ({ events, setEvents, newEvent, setNewEvent }) => {
         />
       </label>
 
-      <button type="submit">Save</button>
+      <button type="submit" className="saveBtn">
+        Save
+      </button>
     </form>
   );
 };

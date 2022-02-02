@@ -1,0 +1,8 @@
+.AddEventBtn {
+  display: flex;
+  background-color: #f8ecec;
+  color: #1b2442;
+  margin-bottom: 1rem;
+  padding: 10px;
+  border-radius: 10px;
+}

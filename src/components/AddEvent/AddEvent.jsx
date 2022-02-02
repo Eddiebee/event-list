@@ -41,7 +41,7 @@ const AddEvent = ({ events, setEvents, newEvent, setNewEvent }) => {
         />
       </label>
       <label htmlFor="description">
-        Decription
+        Description
         <textarea
           name="description"
           id="description"
@@ -62,6 +62,7 @@ const AddEvent = ({ events, setEvents, newEvent, setNewEvent }) => {
         />
       </label>
       <label htmlFor="time">
+        Time
         <input
           type="time"
           name="time"

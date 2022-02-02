@@ -9,15 +9,12 @@
 
 header {
   align-self: flex-start;
-  /* margin-left: 14rem; */
   margin-bottom: 1rem;
-  /* width: 100%; */
-  background-color: rgb(68, 66, 63);
-  /* left: 0; */
+  background-color: #f8ecf8;
 }
 
 header > h1 {
-  color: papayawhip;
+  color: #1b2442;
   padding: 10px;
   font-family: "Merriweather", serif;
   font-size: 26px;

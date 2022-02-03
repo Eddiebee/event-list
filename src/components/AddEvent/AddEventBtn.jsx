@@ -8,7 +8,7 @@ const AddEventBtn = ({ showAddEvent, setShowAddEvent }) => {
       role="button"
       tabIndex={0}
       onClick={() => setShowAddEvent(!showAddEvent)}
-      className="AddEventBtn"
+      className="AddEventBtn flip-in-hor-bottom"
     >
       <MdEvent /> Add Event
     </span>

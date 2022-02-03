@@ -24,7 +24,7 @@ function App() {
       {/* Add Event btn to toggle Add Event form display */}
       {showAddEvent ? (
         <>
-          <span className="flip-in-hor-bottom">
+          <span className={"flip-in-hor-bottom"}>
             <AddEvent
               events={events}
               setEvents={setEvents}

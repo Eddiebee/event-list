@@ -38,6 +38,7 @@ const AddEvent = ({ events, setEvents, newEvent, setNewEvent }) => {
           id="title"
           value={title}
           onChange={handleSetNewEvent}
+          required
         />
       </label>
 
@@ -49,6 +50,7 @@ const AddEvent = ({ events, setEvents, newEvent, setNewEvent }) => {
         rows="5"
         value={description}
         onChange={handleSetNewEvent}
+        required
       ></textarea>
 
       <label htmlFor="date">
@@ -59,6 +61,7 @@ const AddEvent = ({ events, setEvents, newEvent, setNewEvent }) => {
           id="date"
           value={date}
           onChange={handleSetNewEvent}
+          required
         />
       </label>
       <label htmlFor="time">
@@ -69,6 +72,7 @@ const AddEvent = ({ events, setEvents, newEvent, setNewEvent }) => {
           id="time"
           value={time}
           onChange={handleSetNewEvent}
+          required
         />
       </label>
 

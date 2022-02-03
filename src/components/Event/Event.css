@@ -11,6 +11,8 @@
   background-color: #ffffff;
   border-radius: 10px;
   font-family: "Merriweather", serif;
+  z-index: 1;
+  /* visibility: collapse; */
 }
 
 /* .details {} */

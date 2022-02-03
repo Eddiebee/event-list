@@ -19,6 +19,12 @@
   transition: 1s ease-out;
 }
 
+.AddEventBtn {
+  position: sticky;
+  top: 0.8rem;
+  z-index: 10;
+}
+
 .AddEventBtn:hover {
   background-color: #fae3e3;
 }

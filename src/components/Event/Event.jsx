@@ -7,7 +7,7 @@ import DateTimeDisplay from "./DateTimeDisplay";
 const Event = ({ event }) => {
   const { date, time, title, description } = event;
   return (
-    <div className="Event">
+    <div className="Event flip-in-hor-bottom">
       <DateTimeDisplay date={date} time={time} />
       <span className="details">
         <Title title={title} />

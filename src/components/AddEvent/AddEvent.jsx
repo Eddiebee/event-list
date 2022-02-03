@@ -39,6 +39,7 @@ const AddEvent = ({ events, setEvents, newEvent, setNewEvent }) => {
           value={title}
           onChange={handleSetNewEvent}
           required
+          maxLength={34}
         />
       </label>
 
@@ -50,6 +51,7 @@ const AddEvent = ({ events, setEvents, newEvent, setNewEvent }) => {
         rows="5"
         value={description}
         onChange={handleSetNewEvent}
+        maxLength={130}
         required
       ></textarea>
 

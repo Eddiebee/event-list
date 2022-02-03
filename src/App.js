@@ -24,16 +24,18 @@ function App() {
       {/* Add Event btn to toggle Add Event form display */}
       {showAddEvent ? (
         <>
-          <AddEvent
-            events={events}
-            setEvents={setEvents}
-            newEvent={newEvent}
-            setNewEvent={setNewEvent}
-          />
-          <CloseAddEvent
-            showAddEvent={showAddEvent}
-            setShowAddEvent={setShowAddEvent}
-          />
+          <span className="flip-in-hor-bottom">
+            <AddEvent
+              events={events}
+              setEvents={setEvents}
+              newEvent={newEvent}
+              setNewEvent={setNewEvent}
+            />
+            <CloseAddEvent
+              showAddEvent={showAddEvent}
+              setShowAddEvent={setShowAddEvent}
+            />
+          </span>
         </>
       ) : (
         <AddEventBtn

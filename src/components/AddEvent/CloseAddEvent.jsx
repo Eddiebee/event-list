@@ -1,6 +1,9 @@
 import { MdClose } from "react-icons/md";
+import { useContext } from "react";
+import DataContext from "../../context/DataContext";
 
-const CloseAddEvent = ({ showAddEvent, setShowAddEvent }) => {
+const CloseAddEvent = () => {
+  const { showAddEvent, setShowAddEvent } = useContext(DataContext);
   return (
     <button
       onClick={() => setShowAddEvent(!showAddEvent)}

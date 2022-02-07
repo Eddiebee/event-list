@@ -1,9 +1,20 @@
-import React from "react";
+import { useContext } from "react";
 import { MdEvent } from "react-icons/md";
+import DataContext from "../../context/DataContext";
+import AddEvent from "./AddEvent";
+import CloseAddEvent from "./CloseAddEvent";
 import "./AddEvent.css";
 
-const AddEventBtn = ({ showAddEvent, setShowAddEvent }) => {
-  return (
+const AddEventBtn = () => {
+  const { showAddEvent, setShowAddEvent } = useContext(DataContext);
+  return showAddEvent ? (
+    <>
+      <span className="flip-in-hor-bottom addEventCnt">
+        <AddEvent />
+        <CloseAddEvent />
+      </span>
+    </>
+  ) : (
     <button
       tabIndex={0}
       onClick={() => setShowAddEvent(!showAddEvent)}

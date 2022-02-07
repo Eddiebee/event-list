@@ -73,7 +73,7 @@
 }
 
 /* media queries */
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 600px) {
   .Event {
     max-width: 712px;
   }

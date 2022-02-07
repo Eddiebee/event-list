@@ -32,7 +32,7 @@
 .AddEventBtn > svg {
   position: absolute;
   top: -0.5rem;
-  left: 40px;
+  left: 40%;
   font-size: 20px;
 }
 
@@ -119,5 +119,19 @@
     -webkit-transform: rotateX(0);
     transform: rotateX(0);
     opacity: 1;
+  }
+}
+
+/* media queries */
+@media screen and (min-width: 600px) {
+  .AddEventBtn {
+    width: 200px;
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .AddEventBtn > svg {
+    top: -1rem;
+    font-size: 40px;
   }
 }

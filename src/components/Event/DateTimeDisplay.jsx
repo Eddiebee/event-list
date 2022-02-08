@@ -4,7 +4,7 @@ const DateTimeDisplay = ({ date, time }) => {
   const [selectedColor, setSelectedColor] = useState("eceff8");
 
   useEffect(() => {
-    const selectedColors = ["#eceff8", "#eceff9", "#ecef77", "#ecef00"];
+    const selectedColors = ["#eceff8", "#F8ECF8", "#F8ECEC", "#EEF8EC"];
     const chooseColor = (colors) => {
       let randomIndex = Math.floor(Math.random() * colors.length);
       return colors[randomIndex];

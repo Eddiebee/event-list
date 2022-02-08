@@ -21,7 +21,7 @@
 
 .AddEventBtn {
   position: sticky;
-  top: 0.8rem;
+  top: 0.5rem;
   z-index: 10;
 }
 
@@ -31,7 +31,7 @@
 
 .AddEventBtn > svg {
   position: absolute;
-  top: -0.5rem;
+  top: -0.55rem;
   left: 40%;
   font-size: 20px;
 }
@@ -125,6 +125,7 @@
 /* media queries */
 @media screen and (min-width: 600px) {
   .AddEventBtn {
+    top: 0.9rem;
     width: 200px;
     padding: 20px;
     font-size: 20px;
